@@ -29,12 +29,12 @@ else
 fi
 
 if [ -z $REPO_URL ]; then
-  REPO_URL=${GITHUBPROXY}https://github.com/douzicao/sillyGirl.git
+  REPO_URL=${GITHUBPROXY}https://github.com/a1014068504/sillyGirl.git
 fi
 
 
 if [ -z $EXTEND_REPO_URL ]; then
-  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/douzicao/jd_cookie.git
+  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/a1014068504/jd_cookie.git
 fi
 
 
