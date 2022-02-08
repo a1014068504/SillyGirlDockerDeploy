@@ -29,12 +29,12 @@ else
 fi
 
 if [ -z $REPO_URL ]; then
-  REPO_URL=${GITHUBPROXY}https://github.com/a1014068504/sillyGirl.git
+  REPO_URL=${GITHUBPROXY}https://github.com/douzicao/sillyGirl.git
 fi
 
 
 if [ -z $EXTEND_REPO_URL ]; then
-  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/a1014068504/jd_cookie.git
+  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/douzicao/jd_cookie.git
 fi
 
 
@@ -80,11 +80,12 @@ if [ ! -f $CODE_DIR/dev.go ]; then
 package main
 
 import (
-    _ "github.com/a1014068504/sillyGirl/develop/qinglong"
-    _ "github.com/a1014068504/sillyGirl/develop/jd_cookie"
-    _ "github.com/a1014068504/sillyGirl/im/wx"
-    _ "github.com/a1014068504/sillyGirl/im/wxmp"
-    _ "github.com/a1014068504/sillyGirl/im/tg"
+    _ "github.com/douzicao/sillyGirl/develop/qinglong"
+    _ "github.com/douzicao/sillyGirl/develop/jd_cookie"
+    _ "github.com/douzicao/sillyGirl/im/qq"
+    _ "github.com/douzicao/sillyGirl/im/wx"
+    _ "github.com/douzicao/sillyGirl/im/wxmp"
+    _ "github.com/douzicao/sillyGirl/im/tg"
 )
 EOF
 
