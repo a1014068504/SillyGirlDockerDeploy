@@ -80,11 +80,11 @@ if [ ! -f $CODE_DIR/dev.go ]; then
 package main
 
 import (
-    _ "github.com/douzicao/sillyGirl/develop/qinglong"
-    _ "github.com/douzicao/sillyGirl/develop/jd_cookie"
-    _ "github.com/douzicao/sillyGirl/im/wx"
-    _ "github.com/douzicao/sillyGirl/im/wxmp"
-    _ "github.com/douzicao/sillyGirl/im/tg"
+    _ "github.com/a1014068504/sillyGirl/develop/qinglong"
+    _ "github.com/a1014068504/sillyGirl/develop/jd_cookie"
+    _ "github.com/a1014068504/sillyGirl/im/wx"
+    _ "github.com/a1014068504/sillyGirl/im/wxmp"
+    _ "github.com/a1014068504/sillyGirl/im/tg"
 )
 EOF
 
